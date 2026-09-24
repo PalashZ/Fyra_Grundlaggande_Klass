@@ -11,8 +11,15 @@ namespace Övningar___OOP_Grund___Github
             // Object of the class person is created
 
             Person Palash = new Person();
-
             Palash.RunPerson();
+
+            // Encapsulation of the class IDcard is created
+
+            IDcard card = new IDcard("Solina Ahmed", 21, "123456789");
+            card.DisplayInfo();
+
+            card.IdNumber = "051221";
+            card.DisplayInfo();
         }
     }
 }
