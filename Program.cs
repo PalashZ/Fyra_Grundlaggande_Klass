@@ -13,6 +13,12 @@ namespace Övningar___OOP_Grund___Github
             Person Palash = new Person();
 
             Palash.RunPerson();
+
+
+            // Object of the new class gender
+            Gender newgender = new Gender();
+            newgender.RunGender();
+            newgender.Correct();
         }
     }
 }

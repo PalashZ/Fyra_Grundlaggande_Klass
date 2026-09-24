@@ -13,9 +13,13 @@ namespace Övningar___OOP_Grund___Github.Classes
         { 
         Console.WriteLine("Enter your name: ");
          name = Console.ReadLine();
-            Console.WriteLine("Enter your age: ");
-            age = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Hello {name}, you are {age} years old.");
+         Console.WriteLine("Enter your age: ");
+         age = int.Parse(Console.ReadLine());
+         Console.WriteLine($"Hello {name}, you are {age} years old.");
+
+
+            
+
         }
     }
 }
