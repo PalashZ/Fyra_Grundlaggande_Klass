@@ -5,13 +5,15 @@ namespace Övningar___OOP_Grund___Github.Classes
 {
     public class IDcard
     {
+
+        // Private attributes of the class IDcard
         private string name;
 
         private int age;
 
         private string idNumber;
 
-
+        // Public constructor of the class IDcard
         public IDcard(string name, int age, string idnumber)
         {
             this.Name = name;
@@ -19,7 +21,7 @@ namespace Övningar___OOP_Grund___Github.Classes
             this.IdNumber = idnumber;
         }
 
-
+        // Public properties of the class IDcard
         public string Name
         {
             get { return name; }
@@ -41,6 +43,7 @@ namespace Övningar___OOP_Grund___Github.Classes
         }
 
 
+        // Public method of the class IDcard
         public void DisplayInfo()
         {
             Console.WriteLine($"Name: {Name}");
