@@ -8,6 +8,10 @@ namespace Övningar___OOP_Grund___Github.Classes
 
         public int age;
 
+        public string height;
+
+        public string weight;
+
         // Method of the class Person
         public void RunPerson()
         { 
