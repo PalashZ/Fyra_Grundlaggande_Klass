@@ -13,6 +13,22 @@ namespace Övningar___OOP_Grund___Github
             Person Palash = new Person();
 
             Palash.RunPerson();
+
+
+            // Object for the new class Height and weight
+
+            Person Index = new Height_and_weight
+            {
+                weight = "195cm",
+                height = "140cm"
+            };
+
+            Index.RunPerson();
+
+            
+
+   
         }
+        
     }
 }
