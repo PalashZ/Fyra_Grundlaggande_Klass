@@ -3,6 +3,8 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Övningar___OOP_Grund___Github.Classes
 {
+
+    // New class IDcard, This class is for encapsulation
     public class IDcard
     {
 
